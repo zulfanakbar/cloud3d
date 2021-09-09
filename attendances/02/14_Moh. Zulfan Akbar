@@ -1,0 +1,32 @@
+RANGKUMAN MINGGU 2
+Secara umum layanan cloud computing dapat dikategorikan menjadi 3 yaitu SaaS, PaaS dan IaaS.
+
+Storage
+
+Komputasi pada aplikasi membutuhkan penyimpanan dengan spesifikasi tertentu. High Performance Computing dengan biaya yang rendah d. Terdapat 5 layanan penyimpanan yang didukung oleh OCI yaitu block volume, local NVMW, file storage, object storage dan archive storage. Hal ini digambarkan pada Gambar 2.5.
+
+Local NVme x Penyimpanan sementara yang diperlukan oleh aplikasi yang memerlukan latency yang sangat rendah dan pemrosesan yang tinggi.
+
+x Biasanya digunakan pada NoSQL database
+
+Dapat digunakan pada Windows dan Unix.
+
+Archive Storage Terdiri dari 2 tier yaitu Standard Storage Tier dan Archive
+
+Storage Tier . Pada umumya untuk menampilkan data yang terbaru d. Jarang diakses tetapi data tetap harus disimpan untuk jangka waktu yang lama b. Oracle VCN kepanjangan dari Virtual Cloud Network.
+
+Networking
+
+VCN merupakan network yang dimiliki oleh VM anda . VCN memungkinkan pengguna untuk mengatur jaringan yang ada di lingkungan cloud. Untuk memperluas jaringan lokal ke Oracle Cloud. Meningkatkan keamanan pada jaringan VM.
+
+Untuk lebih detail dari VCN akan dibahas lebih detail pada Bab 4.
+
+Identity and Access Management
+
+IAM memungkinkan Anda mengontrol siapa yang memiliki akses ke sumber daya cloud yang Anda miliki, dan jenis akses apa yang mereka miliki, dan ke sumber daya tertentu. IAM policy adalah dokumen yang menentukan siapa dan bagaimana cara yang dapat digunakan untuk mengakses sumber daya. Akses tingkat grup dan kompartemen diberikan, yang berarti Anda dapat menulis kebijakan yang memberi jenis akses tertentu dalam grup dan menggunakan compartment tertentu. Compartment adalah kumpulan resource yang saling terkait yang membantu Anda untuk menentukan akses ke resources yang anda miliki, contohnya dapat digambarkan pada Gambar 2.6.
+
+Sumber daya dapat berinteraksi dengan sumber daya lain di Compartment yang berbeda, dan Anda dapat memberikan akses ke Compartment kepada sekelompok pengguna dengan policy. Anda juga yang membuat network admin group, dan storage admin group. Dengan cara ini, pengguna di setiap grup hanya dapat bekerja dan mengelola sumber daya yang mereka terotorisasi.
+
+OCI juga menawarkan sistem Exadata DB, yang menawarkan kinerja ekstrem baik untuk Online Transaction Processing maupun aplikasi pergudangan data. Layanan Oracle Autonomous Database membebaskan administrator database dari tugas operasional yang bahkan ketika database sudah dideploy di cloud. Autonomous database dibangun di atas arsitektur Exadata Oracle yang highly available architecture, sehingga Anda dapat dengan mudah scaling database deployment. ATP adalah layanan basis data cloud yang menghilangkan kerumitan pengoperasian dan pengamanan high performance databases.
+
+Layanan ATP dibangun untuk mendukung segalanya, mulai dari aplikasi web sederhana hingga aplikasi besar dan canggih yang sangat penting untuk operasi bisnis. Database Oracle Autonomous JSON adalah database dokumen yang memudahkan pengembangan aplikasi JSON-centric. Layanan ini menampilkan API dokumen sederhana, penskalaan tanpa server, transaksi aset dengan cepat dengan keamanan yang komprehensif.
